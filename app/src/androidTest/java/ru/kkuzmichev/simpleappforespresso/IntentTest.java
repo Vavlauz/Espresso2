@@ -48,7 +48,7 @@ public class IntentTest {
                 allOf(withId(androidx.appcompat.R.id.title), withText("Settings")));
         overflowMenuButton.check(
                 matches(isDisplayed()));
-        //Intents.init();//
+//        Intents.init();//
         // ... Если вы решли реализовать проверку с "подписыванием" на Intent
         overflowMenuButton.perform(click()); //Для запуска intent
         //Проверяем intent, он должен передавать url и action
