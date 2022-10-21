@@ -45,7 +45,7 @@ public class IntentTest {
         ViewInteraction overflowMenuButton = onView(
                 allOf(withContentDescription("More options")));
         ViewInteraction materialTextView = onView(
-                allOf(withId(androidx.appcompat.R.id.title), withText("Settings")));
+                allOf(withId(androidx.appcompat.R.id.title)));
         overflowMenuButton.check(
                 matches(isDisplayed()));
 //        Intents.init();//
